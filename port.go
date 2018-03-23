@@ -17,9 +17,9 @@ func main() {
 	flag.Parse()
 	checkResult := checkPort(*host, *port, *timeout)
 	if checkResult != 0 {
-		fmt.Println("no good")
+		fmt.Println("no good") // oh my god i hate first pass results
 	} else {
-		fmt.Println("omg yay")
+		fmt.Println("omg yay") // delete this, destroy this, stop doing this
 	}
 }
 
